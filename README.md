@@ -9,10 +9,10 @@
 Standard automation fails because it is "too regular." Even with simple random delays, bots often fall into statistical patterns easily flagged by frequency analysis. **ChaosGuard** introduces **"Tactical Breathing"** — a non-linear, high-entropy rhythm that is mathematically indistinguishable from a focused human user.
 
 ### Key Technical Pillars:
-*   **Dynamic Sliding Prime Windows**: Utilizes a field of 168 primes (up to 1000) to generate rotating sub-pools, eliminating fixed statistical edges and discrete frequency peaks.
+*   **Dynamic Sliding Prime Windows**: Utilizes a full domain of **1,229 primes (up to 10,000)** to generate rotating sub-pools, eliminating fixed statistical edges and discrete frequency peaks.
+*   **Dual-Profile Tactical Switching**: Supports **Smooth (Long-term)** and **Contrast (Short-term)** interaction profiles to mimic specific human cognitive states during Web/LLM sessions.
 *   **Inhomogeneous Poisson Process**: Transforms discrete prime delays into continuous exponential distributions (Poisson sampling) to eliminate mechanical "fingerprints."
 *   **Bayesian Risk Feedback Loop**: A real-time governor that "senses" environment pressure (server latency/HTTP 429s) and updates a posterior risk probability to auto-adjust mission density.
-*   **Self-Evolving Floating Probability**: Uses prime number offsets as a deterministic chaos source to drive autonomous mode-switching between "Burst" and "Cruise" states.
 
 ---
 
@@ -25,6 +25,7 @@ Density 3 |     █          █   █
 Density 2 |  █  █  █    █  █   █             █       
 Density 1 | ███ █ ███  ██ ████ █            ███  █   
 Risk Lv   |    [Safe]      [🔥 HIGH RISK]   [🌊 Recovery]
+Mode      |    [Hyper]     [Chaos Mode]     [Cruise]
 ```
 
 ---
